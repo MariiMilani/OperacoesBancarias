@@ -19,5 +19,6 @@ public abstract class ContaBancaria implements Conta {
         return saldo;
     }
 
+    @Override
     public abstract double depositar(double valor);
 }

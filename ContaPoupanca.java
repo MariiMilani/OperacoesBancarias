@@ -9,10 +9,6 @@ public class ContaPoupanca extends ContaBancaria {
         return saldo;
     }
 
-    public ContaPoupanca(double saldo) {
-        super(saldo);
-    }
-
     public ContaPoupanca(double saldo, TipoConta tipoConta) {
         super(saldo, tipoConta);
     }

@@ -8,10 +8,6 @@ public class ContaCorrente extends ContaBancaria {
         return saldo;
     }
 
-    public ContaCorrente(double saldo) {
-        super(saldo);
-    }
-
     public ContaCorrente(double saldo, TipoConta tipoConta) {
         super(saldo, tipoConta);
     }
